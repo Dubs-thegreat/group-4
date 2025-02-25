@@ -6,14 +6,20 @@ using namespace std;
 int main() {
     string name;
     int birthYear, birthMonth, birthDay;
-    
+
+    //Prompt the user to enter their name;
     cout << "Enter your name: ";
     getline(cin, name);
-    
+
+    //Prompt the user to enter their birthyear;
     cout << "Enter your birth year: ";
     cin >> birthYear;
+
+    //Prompt the user to enter their birthmonth;
     cout << "Enter your birth month (1-12): ";
     cin >> birthMonth;
+
+    //Prompt the user to enter their birthday;
     cout << "Enter your birth day (1-31): ";
     cin >> birthDay;
     
